@@ -1,5 +1,5 @@
 public class Mäng {
     public static void main(String[] args) {
-        Renderdaja renderdaja = new Renderdaja();
+        Renderdaja renderdaja = new Renderdaja(100);
     }
 }
