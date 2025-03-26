@@ -28,16 +28,16 @@ public class Mangija implements Ese{
     }
     public void liigu() {
         if (Input.key == 'd') {
-            xKiirus++;
+            xKiirus = 1;
             System.out.println(xKiirus);
         } else if (Input.key == 'a') {
-            xKiirus--;
+            xKiirus = -1;
             System.out.println(xKiirus);
         } else if (Input.key == 'w') {
-            yKiirus++;
+            yKiirus = -1;
             System.out.println(yKiirus);
         } else if (Input.key == 's'){
-            yKiirus--;
+            yKiirus = 1;
             System.out.println(yKiirus);
         }
     }
