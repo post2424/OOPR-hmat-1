@@ -6,6 +6,7 @@ public class Mangija implements Ese{
     public Mangija(byte elupunktid, int[] positsioon) {
         this.elupunktid = elupunktid;
         this.positsioon = positsioon;
+        this.kiirus = 0;
     }
 
     public byte getKiirus() {
