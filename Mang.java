@@ -1,4 +1,4 @@
-public class Mäng {
+public class Mang {
     public static boolean töötab = true;
     public static void main(String[] args) {
         Renderdaja renderdaja = new Renderdaja(100);
